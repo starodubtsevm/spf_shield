@@ -789,4 +789,85 @@ Wire Wire Line
 	6550 2400 6050 2400
 Text GLabel 6050 2400 0    60   Output ~ 0
 TX_Disable
+Wire Wire Line
+	6550 2300 6400 2300
+Text GLabel 6400 2300 0    60   Input ~ 0
+RLOS
+$Comp
+L LM7805_TO220 U?
+U 1 1 5A0FC860
+P 7400 3800
+F 0 "U?" H 7250 3925 50  0000 C CNN
+F 1 "LM7805_TO220" H 7400 3925 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 7400 4025 50  0001 C CIN
+F 3 "" H 7400 3750 50  0001 C CNN
+	1    7400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5A0FC8F3
+P 6900 4100
+F 0 "C?" H 6925 4200 50  0000 L CNN
+F 1 "22u 16V" H 6950 3950 50  0000 L CNN
+F 2 "" H 6938 3950 50  0000 C CNN
+F 3 "" H 6900 4100 50  0000 C CNN
+	1    6900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 5A0FC9DE
+P 7900 4100
+F 0 "C?" H 7925 4200 50  0000 L CNN
+F 1 "22u 16V" H 7950 3950 50  0000 L CNN
+F 2 "" H 7938 3950 50  0000 C CNN
+F 3 "" H 7900 4100 50  0000 C CNN
+	1    7900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A0FCA7A
+P 8350 4100
+F 0 "C?" H 8375 4200 50  0000 L CNN
+F 1 "0.1u 16V" V 8200 3950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8388 3950 50  0001 C CNN
+F 3 "" H 8350 4100 50  0000 C CNN
+	1    8350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3950 6900 3800
+Wire Wire Line
+	6600 3800 7100 3800
+Wire Wire Line
+	7700 3800 8550 3800
+Wire Wire Line
+	7900 3950 7900 3800
+Connection ~ 7900 3800
+Wire Wire Line
+	8350 3950 8350 3800
+Connection ~ 8350 3800
+Wire Wire Line
+	7900 4350 7900 4250
+Wire Wire Line
+	6900 4350 8350 4350
+Wire Wire Line
+	7400 4350 7400 4100
+Wire Wire Line
+	6900 4350 6900 4250
+Connection ~ 7400 4350
+Wire Wire Line
+	8350 4350 8350 4250
+Connection ~ 7900 4350
+Connection ~ 6900 3800
+Text GLabel 8550 3800 2    60   Output ~ 0
+3.3V
+Text GLabel 6050 1600 0    60   Output ~ 0
++5V
+Wire Wire Line
+	6550 1600 6050 1600
+Text GLabel 6600 3800 0    60   Output ~ 0
++5V
 $EndSCHEMATC
