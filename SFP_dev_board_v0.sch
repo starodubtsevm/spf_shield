@@ -1311,4 +1311,17 @@ Wire Wire Line
 Wire Wire Line
 	6300 1800 6300 1700
 Connection ~ 6300 1700
+NoConn ~ 8400 5950
+NoConn ~ 8400 6050
+NoConn ~ 9200 5950
+NoConn ~ 8400 4350
+NoConn ~ 8400 4450
+NoConn ~ 9200 4350
+NoConn ~ 6550 1400
+NoConn ~ 6550 1500
+NoConn ~ 8450 1900
+NoConn ~ 8450 1700
+NoConn ~ 8450 1600
+NoConn ~ 8450 1500
+NoConn ~ 8450 1000
 $EndSCHEMATC
