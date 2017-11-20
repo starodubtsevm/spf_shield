@@ -1,4 +1,4 @@
-update=Сб 18 ноя 2017 11:55:41
+update=Пн 20 ноя 2017 21:13:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../../Загрузки/contrib-kicad_parts-master;../../../../usr/share/kicad/library
@@ -84,3 +74,13 @@ LibName42=triac_thyristor
 LibName43=ttl_ieee
 LibName44=video
 LibName45=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
